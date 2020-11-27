@@ -1,5 +1,6 @@
 <!-- Social Sharing section -->
-<section id = "social-share-section">
+{{ if .Site.Params.socialShare }}
+<section id="social-share-section">
 
 	<div class="container">
 		<div class="row">
@@ -10,3 +11,4 @@
 	</div>
 
 </section>
+{{end}}
